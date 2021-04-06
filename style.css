@@ -12,5 +12,14 @@ body {
 
 #principal {
     padding: 30px;
-    background: rgb(25, 32, 10);
+    background: rgb(90, 100, 55);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
