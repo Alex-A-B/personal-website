@@ -1,3 +1,16 @@
 body { 
-    background: cornflowerblue;
+    background: url(./assets/atmospheric-forest.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+#principal {
+    padding: 30px;
+    background: rgb(25, 32, 10);
 }
