@@ -17,6 +17,21 @@ body {
     background: rgb(90, 100, 55);
 }
 
+/*  Trying to create a pop up window effect to display content within 
+    need to try and get it to align centrally within the overall page
+    also need to work out how to make it a pop up frame within on click
+    otherwise hide.
+
+#projects {
+    background: rgb(120, 120, 120);
+    width: 120%;
+    padding-bottom: 40px;
+    border-style: solid;
+    border-color:rgb(70, 70, 70);
+}
+
+*/
+
 a {
     color: black;
     text-decoration: none;

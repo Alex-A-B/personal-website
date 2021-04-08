@@ -1,3 +1,5 @@
+// rock dodger game scripts
+
 const dodger = document.getElementById("dodger"); 
 
 function moveDodgerLeft() {
@@ -27,7 +29,13 @@ document.addEventListener("keydown", function(e) {
     }
   }
 
+// JS footer insert
+
 const h2 = document.createElement('h2');
 h2.textContent = "This content added by JavaScript.";
 
 document.querySelector('div#principal').appendChild(h2);
+
+// JS show preview on mousehover
+
+// JS show/hide onClick
