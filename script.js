@@ -59,7 +59,7 @@ $(".show_menu").click(function(){
 var body = document.getElementsByTagName("body")[0];
 var navigation = document.getElementById("navigation");
 
-window.addEventListener("scroll", function(evt) {
+window.addEventListener("scroll", function(event) {
   if (body.scrollTop > navigation.getBoundingClientRect().bottom) {
     // when the scroll's y is bigger than the nav's y set class to fixednav
     navigation.className = "fixednav"

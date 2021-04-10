@@ -43,7 +43,7 @@ body {
   position: static;
 }
 #navigation {
-  background-color: rgba(0, 0, 255, 0.50);
+  background-color: rgb(27, 75, 34);
   padding: 10px;
   width: 100%;
 }
@@ -55,6 +55,10 @@ body {
 
 /* end nav part */
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -63,6 +67,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* game section of projects tab */
 
 #dodger {
     background-color: rgb(176, 20, 197);
@@ -120,3 +126,4 @@ a:hover {
     width: 9px;
   }
   
+  /* end of game section for projects tab */
