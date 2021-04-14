@@ -38,9 +38,11 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  width: 30%;
 }
 .staticnav {
   position: static;
+
 }
 #navigation {
   background-color: rgb(27, 75, 34);
