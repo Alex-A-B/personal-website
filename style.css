@@ -38,8 +38,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 30%;
-}
+  }
+
 .staticnav {
   position: static;
 
@@ -56,6 +56,27 @@ body {
 }
 
 /* end nav part */
+
+/* footer part */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.footer-item {
+  background-color: rgb(27, 75, 34);
+  padding: 10px;
+  flex: 1;
+}
+
+.footer-two {
+  flex: 2;
+}
+
+
+
 
 html {
   scroll-behavior: smooth;
