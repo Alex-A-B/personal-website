@@ -73,9 +73,10 @@ body {
 
 .footer-two {
   flex: 2;
+  text-align: centr;
 }
 
-
+/* end footer */
 
 
 html {
