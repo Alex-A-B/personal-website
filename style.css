@@ -36,19 +36,37 @@ body {
 
 .header-content {
   /* ... */
+  width: 100%;
   display: flex;
+  justify-content: space-around
 }
 
 .avatar {
   width: 10%;
   height: 10%;
   margin: 25px;
-  border-radius: 2.5%;
+  display: flex;
+  align-items: right;
 }
 
 .avatar-img {
   width: 100%;
   height: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(20, 60, 15)
+}
+
+ul.avatar-ul {
+  list-style-type: none;
+  background-color: rgb(27, 75, 34);
+  padding: 10px;
+  margin-left: 5px;
+  border: 2px solid rgb(20, 60, 15);
+}
+
+ul li.avatar-list {
+  color: white;
+  text-align: center;
 }
 
 /* navigation bit */
