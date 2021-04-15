@@ -73,7 +73,7 @@ body {
 
 .footer-two {
   flex: 2;
-  text-align: centr;
+  text-align: center;
 }
 
 /* end footer */
@@ -81,6 +81,10 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 a {
