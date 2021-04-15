@@ -14,7 +14,7 @@ body {
 
 #principal {
     padding: 30px;
-    background: rgb(90, 100, 55);
+    background: rgb(200, 210, 175);
 }
 
 /*  Trying to create a pop up window effect to display content within 
@@ -104,6 +104,7 @@ ul li.avatar-list {
 
 .footer-item {
   background-color: rgb(27, 75, 34);
+  color: white;
   padding: 10px;
   flex: 1;
 }
@@ -125,7 +126,7 @@ p {
 }
 
 a {
-    color: black;
+    color: rgb(20, 120, 150);
     text-decoration: none;
 }
 
