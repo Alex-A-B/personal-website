@@ -6,9 +6,26 @@ body {
     font-size: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+    color: rgb(20, 120, 150);
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
 .wrapper {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     padding-bottom: 50px;
 }
 
@@ -75,6 +92,7 @@ ul li.avatar-list {
   position: fixed;
   top: 0;
   left: 0;
+  width: 20%;
   }
 
 .staticnav {
@@ -107,44 +125,29 @@ ul li.avatar-list {
   color: white;
   padding: 10px;
   flex: 1;
+  text-align: center;
 }
 
 .footer-two {
   flex: 2;
-  text-align: center;
-}
+ }
 
 /* end footer */
 
 
-html {
-  scroll-behavior: smooth;
-}
 
-p {
-  margin-bottom: 20px;
-}
-
-a {
-    color: rgb(20, 120, 150);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* game section of projects tab */
 
 #dodger {
-    background-color: rgb(176, 20, 197);
+    background-color:  rgb(176, 20, 197);
     height: 20px;
     position: absolute;
     width: 40px;
   }
   
   #game {
-    background-color: rgb(32, 44, 37);
+    background-image: linear-gradient(to bottom, rgb(32, 44, 37), rgb(88, 160, 79));
     height: 400px;
     margin: 0 auto;
     overflow: hidden;
