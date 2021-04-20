@@ -134,8 +134,28 @@ ul li.avatar-list {
 
 /* end footer */
 
+/* projects part */
 
+.projects-container {
+  background-color: rgb(45, 120, 75);
+  padding: 20px auto;
+  margin:20px auto;
+}
 
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.projects {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-image: radial-gradient(rgb(160, 34, 199), rgb(10, 150, 150));
+  border: 2px solid rgb(20, 60, 15);
+  text-align: center;
+}
 
 /* game section of projects tab */
 
