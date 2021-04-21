@@ -67,3 +67,22 @@ window.addEventListener("scroll", function(event) {
     navigation.className = "staticnav"
   }
 });
+
+// Projects event listeners
+
+var projectOne = document.getElementsByClassName("project-one")
+
+projectOne.addEventListener("mouseover", function(event) 
+   {
+      projectOne.style,width = "400px";
+      projectOne.style.height = "400px";
+      projectOne.style.alignItem = "center";
+      projectOne.style.backgroundImage = "radial-gradient(rgb(10, 150, 150), rgb(160, 34, 199))";
+    });
+
+projectOne.addEventListener("mouseout", function(event) {
+      projectOne.style,width = "";
+      projectOne.style.height = "";
+      projectOne.style.alignItem = "";
+      projectOne.style.backgroundImage = "";
+ });
