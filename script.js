@@ -1,4 +1,5 @@
-// rock dodger game scripts
+/* commenting out as not in use at present
+/* rock dodger game scripts
 
 const dodger = document.getElementById("dodger"); 
 
@@ -28,31 +29,15 @@ document.addEventListener("keydown", function(e) {
         dodger.style.left = `${left + 1}px`
     }
   }
+*/
 
 // JS footer insert
+// ***** still needed? *****
 
 const h2 = document.createElement('h2');
 h2.textContent = "This content added by JavaScript.";
 
 document.querySelector('div#principal').appendChild(h2);
-
-// JS show preview on mousehover
-
-// JS show/hide onClick
-
-// this is yoinked from a jquery class - reverse engineer to a js version
-/*
-$(document).ready(function(){
-$(".hide_menu").click(function(){
-    $('#menu_div').css("display","none");
-});
-
-$(".show_menu").click(function(){
-    $('#menu_div').css("display","initial");
-});
-});
-
-*/
 
 // Navigation bits
 
