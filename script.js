@@ -53,11 +53,24 @@ window.addEventListener("scroll", function(event) {
   }
 });
 
+// Header flexbox events
+
+const theAvatar = document.querySelector("img.avatar-img");
+
+theAvatar.addEventListener("mouseover", function(event) {
+  theAvatar.style.width = "200px";
+  });
+
+theAvatar.addEventListener("mouseout", function(event){
+  theAvatar.style.width = "";
+  });
+
+
 // Projects event listeners
 
-const projectOne = document.querySelector("div.projects.project-one")
-const projectTwo = document.querySelector("div.projects.project-two")
-const projectThree = document.querySelector("div.projects.project-three")
+const projectOne = document.querySelector("div.projects.project-one");
+const projectTwo = document.querySelector("div.projects.project-two");
+const projectThree = document.querySelector("div.projects.project-three");
 
 projectOne.addEventListener("mouseover", function(event) {
       projectOne.style.backgroundImage = "radial-gradient(rgb(10, 150, 150), rgb(160, 34, 199))";

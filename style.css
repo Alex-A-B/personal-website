@@ -55,7 +55,7 @@ a:hover {
   /* ... */
   width: 100%;
   display: flex;
-  justify-content: space-around
+  justify-content: space-between;
 }
 
 .avatar {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .avatar-img {
-  width: 100%;
+  width: 75px;
   height: auto;
   border-radius: 50%;
   border: 2px solid rgb(20, 60, 15)
