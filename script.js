@@ -70,19 +70,30 @@ window.addEventListener("scroll", function(event) {
 
 // Projects event listeners
 
-var projectOne = document.getElementsByClassName("project-one")
+const projectOne = document.querySelector("div.projects.project-one")
+const projectTwo = document.querySelector("div.projects.project-two")
+const projectThree = document.querySelector("div.projects.project-three")
 
-projectOne.addEventListener("mouseover", function(event) 
-   {
-      projectOne.style,width = "400px";
-      projectOne.style.height = "400px";
-      projectOne.style.alignItem = "center";
+projectOne.addEventListener("mouseover", function(event) {
       projectOne.style.backgroundImage = "radial-gradient(rgb(10, 150, 150), rgb(160, 34, 199))";
     });
 
 projectOne.addEventListener("mouseout", function(event) {
-      projectOne.style,width = "";
-      projectOne.style.height = "";
-      projectOne.style.alignItem = "";
       projectOne.style.backgroundImage = "";
  });
+
+ projectTwo.addEventListener("mouseover", function(event) {
+  projectTwo.style.backgroundImage = "radial-gradient(rgb(10, 150, 150), rgb(160, 34, 199))";
+});
+
+projectTwo.addEventListener("mouseout", function(event) {
+  projectTwo.style.backgroundImage = "";
+});
+
+projectThree.addEventListener("mouseover", function(event) {
+  projectThree.style.backgroundImage = "radial-gradient(rgb(10, 150, 150), rgb(160, 34, 199))";
+});
+
+projectThree.addEventListener("mouseout", function(event) {
+  projectThree.style.backgroundImage = "";
+});
